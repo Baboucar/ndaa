@@ -2,7 +2,9 @@
   <div>
     <Navigation />
 
-    <div class="slider"></div>
+    <div class="slider">
+    
+    </div>
     <div>
       <section class="container">
         <h1 class="center-text">NDAA</h1>
