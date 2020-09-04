@@ -1,14 +1,21 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '../views/Home.vue';
+import Homepage from '../components/Homepage'
+import Durability from '../components/Durability.vue'
 
 Vue.use(VueRouter)
 
   const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'homepage',
+    component: Homepage
+  },
+  {
+    path:'/durable',
+    name:'durable',
+    component:Durability
   },
   {
     path: '/about',

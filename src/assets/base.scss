@@ -1,0 +1,268 @@
+$color-primary: #254151;
+$color-secondary:#2e7769;
+$color-tertiary:#af2c13b3;
+
+//$color-secondary:#0000ff45;
+$color-black: #000000;
+$color-white: #FFFFFF;
+$color-grey: #f8f8f8;
+$color-text: #5e5e5e;
+$color-mission:#eaeae8;
+
+//~~~~~~~~~~~~ Responsive Breakpoints ~~~~~~~~~~~~
+
+/**
+ * Breakpoint graph
+ * http://www.sassmeister.com/gist/0614ac3971ae82925ef4
+ *
+ * This are just some breakpoints, test your content change as you will
+ * Let the content dictate the breakpoint
+ *
+ * Example Usage in css:
+ *
+ * .con {
+ *    width: 96%;
+ *    margin: 0 auto;
+ *
+ *    @include respond-to(tablet-large) {
+ *      width: 85%;
+ *    }
+ * }
+ */
+
+$breakpoints: ("mobile-small": "( min-width:  20.000em )", "mobile-large": "( min-width:  30.000em )", "tablet-small": "( min-width:  35.000em )", "tablet-large": "( min-width:  50.000em )", "screen-small": "( min-width:  64.000em )", "screen-medium": "( min-width:  75.000em )", "screen-large": "( min-width:  85.000em )", "screen-huge": "( min-width: 100.000em )");
+
+@mixin respond-to($name) {
+    // If the key exists in the map
+    @if map-has-key($breakpoints, $name) {
+        // Prints a media query based on the value
+        @media #{map-get($breakpoints, $name)} {
+            @content;
+        }
+    }
+    @else {
+        // Just warn the user
+        @warn "Unfortunately, no value could be retrieved from '#{$name}'. " + "Please make sure it is defined in the '$breakpoints' map. ";
+    }
+}
+
+
+
+
+/// default font size for the html
+html {
+    box-sizing: border-box;
+}
+
+// body resets
+body {
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-weight: 100;
+    line-height: 1.7;
+}
+
+@font-face {
+    font-family: 'ZCOOL XiaoWei', serif;
+    src: url("../assets/fonts/ZCOOLXiaoWei-Regular.ttf");
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+.mission {
+    background: $color-mission;
+    margin-top: 0;
+}
+
+.mission__heading {
+    margin-top: 0;
+}
+
+.heading {
+    font-size: 2.6rem;
+    letter-spacing: .4rem;
+    color: $color-primary;
+    padding-top: 1rem;
+}
+
+.mission__description {
+    line-height: 1.8;
+    width: 70%;
+}
+
+.heading__btn {
+    text-decoration: none;
+    display: block;
+    color: #45b29d;
+    padding: 1rem 0;
+}
+
+.slider {
+    display: block;
+}
+
+.support {
+    padding: 8rem;
+    background-image: url("/../images/donate.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.support__background-color {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $color-tertiary;
+    width: 100%;
+}
+
+.support__btn {
+   display: block;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: #fff;
+    color: $color-tertiary;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: .7rem;
+    position: relative;
+    width: 5rem;
+    z-index: 1;
+    margin: 0 auto;
+    z-index: 1;
+
+    &:hover {
+        color: $color-white;
+        animation: bounce 1s;
+        background: $color-primary;
+        transition: all ease .3s;
+    }
+}
+
+.card {
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.1), 0 17px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+       
+    
+}
+
+.card__title {
+    color: $color-primary;
+    font-weight: bold;
+}
+
+.card__location {
+    margin-right: .5rem;
+}
+
+.card__button {
+    display: block;
+    text-decoration: none;
+    background: $color-primary;
+    color: $color-white;
+    width: 50%;
+    margin: 2rem auto;
+    border-radius: 6px;
+    padding: .5rem;
+    text-align: center;
+    transition: .5s;
+
+    &:hover {
+        background: $color-tertiary;
+    }
+}
+
+.testimony {
+    color: $color-white;
+    background: #45b29d;
+
+    &__image {
+        display: block;
+    }
+}
+
+.testimony__description {
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.contact {
+    background: $color-grey;
+}
+
+.social__title {
+    padding-top: 1rem;
+}
+
+.footer {
+    background: $color-primary;
+    padding: 2rem;
+    color: $color-white;
+}
+
+@include respond-to(tablet-small){
+     .support__btn {
+         display: flex;
+     }
+}
+@include respond-to(tablet-large) {
+    .mission {
+        display: flex;
+    }
+
+    .testimony {
+        display: flex;
+        margin-top: 4rem;
+
+        &__description {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .support {
+        flex-basis: 50%;
+        
+    }
+    .support__btn{
+        width: 10rem;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 3rem;
+    }
+
+    .contact {
+        display: flex;
+    }
+
+    .social {
+        margin-left: 4rem;
+    }
+
+    .wrapper {
+        display: flex;
+    }
+    .support__btn{
+        display: flex;
+    }
+}
