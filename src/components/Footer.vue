@@ -2,9 +2,9 @@
   <div class="wrapper">
     <footer>
       <div>
-        <h3>FAIRE UN DON PAR TÉLÉPHONE AU</h3>
-        <p class="tele">+33 6 20278228</p>
-        <p class="links">Pour paypal : Cliquez ci-dessous. </p>
+    
+        <h2 class="links"> <span class="color">Pour paypal</span> : Cliquezs <span class="color"> ci-dessous.</span> </h2>
+        <button class="paypal__button">Faire un don</button>
         <p class="links">
         Pour un virement bancaire : <br>
 RIB 11112222222222222222222 
@@ -12,18 +12,13 @@ RIB 11112222222222222222222
         <router-link to="/" class="links">Faire un don</router-link>
       </div>
 
-      <div>
-        <h3>À PROPOS DE NOUS</h3>
-        <router-link to class="links">Nos vision</router-link>
-        <router-link to class="links">Nos missions</router-link>
-        <router-link to class="links">Rappots annuels</router-link>
-      </div>
+     
 
       <div>
         <h2>RESSOURCES</h2>
-        <router-link to class="links">Médias sociaux</router-link>
-        <router-link to="" class="links">Rapports annuels</router-link>
-        <router-link to="" class="links"
+        <router-link to="/social" class="links">Médias sociaux</router-link>
+        <router-link to="/annual" class="links">Rapports annuels</router-link>
+        <router-link to="/enterprise" class="links"
           >Partenariats d'entreprises</router-link
         >
       </div>
@@ -57,6 +52,15 @@ footer {
   padding: 1rem;
   width: 100%;
 }
+.paypal__button{
+    background:#ffaf34;
+    border:none;
+    border-radius: 5px;
+    padding: .8rem;
+}
+.color{
+    color:$color-tertiary;
+}
 .links {
   display: block;
   text-decoration: none;
@@ -77,7 +81,7 @@ footer {
 @media (min-width: 64rem) {
   footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     width: 90%;
     margin: 0 auto;
   }

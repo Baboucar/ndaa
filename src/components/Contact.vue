@@ -126,6 +126,7 @@ textarea:focus {
   border-bottom-color: $color-primary;
 }
 
+
 @include respond-to(tablet-large) {
   .contact_details {
     display: grid;

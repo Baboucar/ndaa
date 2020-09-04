@@ -9,6 +9,9 @@ import Pourquoi from '../components/Pourquoi';
 import Orphane from '../components/Orphane.vue';
 import Pouvez from '../components/Pouvez.vue';
 import Contact from '../components/Contact.vue';
+import SocialMedia from '../components/SocialMedia';
+import Annual from '../components/Annual';
+import Enterprise from '../components/Enterprise';
 
 Vue.use(VueRouter)
 
@@ -22,6 +25,21 @@ Vue.use(VueRouter)
     path:'/durable',
     name:'durable',
     component:Durability
+  },
+  {
+ path:'/enterprise',
+ name:'enterprise',
+ component:Enterprise
+  },
+  {
+  path:'/annual',
+  name:'annual',
+  component:Annual
+  },
+  {
+   path:'/social',
+   name:'social',
+   component:SocialMedia
   },
   {
    path:'/contact',
