@@ -2,7 +2,37 @@
   <div>
     <Navigation />
 
-    <div class="slider"></div>
+    <div class="">
+    
+    <vue-flux
+   :options="vfOptions"
+   :images="vfImages"
+   :transitions="vfTransitions"
+   
+   ref="slider">
+
+   <template v-slot:preloader>
+      <flux-preloader />
+   </template>
+
+   <template >
+      <flux-caption />
+   </template>
+
+   <template v-slot:controls>
+      <flux-controls />
+   </template>
+
+   <template v-slot:pagination>
+      <flux-pagination />
+   </template>
+
+   <template v-slot:index>
+      <flux-index />
+   </template>
+</vue-flux>
+
+    </div>
     <div>
       <section class="container">
         <h1 class="center-text">NDAA</h1>
@@ -326,12 +356,37 @@
 import Navigation from "./Navigation";
 import Footer from "./Footer";
 import { Carousel, Slide } from "vue-carousel";
+import {
+   VueFlux,
+   FluxCaption,
+   FluxControls,
+   FluxIndex,
+   FluxPagination,
+   FluxPreloader
+} from 'vue-flux';
 export default {
+
+  data(){
+    return{
+   vfOptions: {
+         autoplay: true
+      },
+      vfImages: [ '/../images/slider/NDAA-conception.png', '/../images/slider/NDAA-conception2.png', '/../images/slider/NDAA-conception3.png' ],
+      vfTransitions: [ 'fade', 'book', 'wave','waterfall','concentric' ],
+    }
+  },
   components: {
+
     Navigation,
     Carousel,
     Slide,
     Footer,
+    VueFlux,
+      FluxCaption,
+      FluxControls,
+      FluxIndex,
+      FluxPagination,
+      FluxPreloader,
   },
 };
 </script>

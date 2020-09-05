@@ -16,13 +16,7 @@
             <h4 class="sub__heading">
               Montant à payer pour la durée de l'adhésion :20,00 €
             </h4>
-            <p>
-              HelloAsso est une entreprise sociale et solidaire, qui fournit
-              gratuitement ses technologies de paiement à l’organisme Renndo
-              Cheikh Oumar Foutiyou Tall Paris. Une contribution au
-              fonctionnement de HelloAsso, modifiable et facultative, vous sera
-              proposée avant la validation de votre paiement.
-            </p>
+          
           </div>
         </tab-content>
         <tab-content title="Adhérents">
@@ -118,13 +112,12 @@
           cryptage SSL de vos données <br />
           bancaires, vous êtes assurés de <br />
           la fiabilité de vos transactions sur <br />
-          HelloAsso.
+          NDAA.
         </p>
         <div class="services__image">
           <img src="/../images/logo-cb.png" alt="" />
           <img src="/../images/logo-visa.png" alt="" />
           <img src="/../images/logo-mastercard.png" alt="" />
-          <img src="/../images/logo-pci.png" alt="" />
         </div>
       </div>
     </section>
