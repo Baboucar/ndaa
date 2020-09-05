@@ -12,6 +12,7 @@ import Contact from '../components/Contact.vue';
 import SocialMedia from '../components/SocialMedia';
 import Annual from '../components/Annual';
 import Enterprise from '../components/Enterprise';
+import Membership from '../components/Membership.vue';
 
 Vue.use(VueRouter)
 
@@ -25,6 +26,11 @@ Vue.use(VueRouter)
     path:'/durable',
     name:'durable',
     component:Durability
+  },
+  {
+  path:'/membership',
+  name:'membership',
+  component:Membership
   },
   {
  path:'/enterprise',

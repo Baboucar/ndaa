@@ -37,6 +37,9 @@ RIB 11112222222222222222222
         <a href=""> <img src="/../images/instagram-sketched.png" alt="" /> </a>
         </div>
       </div>
+      <div>
+      <router-link to="/membership" class="paypal__button">J'adhere</router-link>
+      </div>
     </footer>
   </div>
 </template>
@@ -57,6 +60,10 @@ footer {
     border:none;
     border-radius: 5px;
     padding: .8rem;
+    text-decoration: none;
+    color: $color-primary;
+    margin-top: 1rem;
+    display: inline-block;
 }
 .color{
     color:$color-tertiary;
@@ -81,7 +88,7 @@ footer {
 @media (min-width: 64rem) {
   footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr ;
     width: 90%;
     margin: 0 auto;
   }
