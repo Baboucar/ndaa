@@ -7,7 +7,7 @@
         <button class="paypal__button">Faire un don</button>
         <p class="links">
         Pour un virement bancaire : <br>
-RIB 11112222222222222222222 
+RIB: Bientôt disponible
         </p>
         <router-link to="/" class="links">Faire un don</router-link>
       </div>
@@ -25,16 +25,16 @@ RIB 11112222222222222222222
       <div>
         <h3>REJOIGNEZ-NOUS</h3>
         <router-link to="/contact" class="links">Contactez-nous</router-link>
-        <router-link to class="links">Rejoindre NDAA</router-link>
+        <router-link to="/rejoin" class="links">Rejoindre NDAA</router-link>
         <router-link to class="links">Faire un don</router-link>
       </div>
       <div>
         <h3>Contactez-nous</h3>
         <div class="social__links">
-        <a href=""> <img src="/../images/facebook.png" alt="" /> </a>
+        <a href=" https://www.facebook.com/Gollanad%C3%A9-Ndjobbo-Sokhna-Adama-Aisse-108292331002026/?view_public_for=108292331002026"> <img src="/../images/facebook.png" alt="" /> </a>
         <a href="http://"> <img src="/../images/twitter.png" alt="" /> </a>
-        <a href=""> <img src="/../images/youtube.png" alt="" /> </a>
-        <a href=""> <img src="/../images/instagram-sketched.png" alt="" /> </a>
+        <a href="https://www.youtube.com/channel/UC5M7FwW6Hy_hALdmnovH5HQ"> <img src="/../images/youtube.png" alt="" /> </a>
+        <a href=" https://www.instagram.com/p/CEm1ScyBP2I/?igshid=18lykjz9sqz2j"> <img src="/../images/instagram-sketched.png" alt="" /> </a>
         </div>
       </div>
       <div>

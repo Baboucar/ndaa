@@ -2,7 +2,7 @@
   <div>
     <Navigation />
     <section class="container  top">
-      <form-wizard color="#2e7769">
+      <form-wizard color="#2e7769" title="FORMULAIRE D'ADHÉSION L’ASSOCIATION GOLLANADE NJOBBO SOKHNA ADAMA AÏSSE" subtitle="Adhésion valable du 05/09/2020 au 05/09/2021 ">
         <tab-content title="Choix de l'adhésion">
           <div class="center-text member__title">
             <h3 class="title">Carte de membre</h3>

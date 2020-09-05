@@ -316,7 +316,7 @@
 
     <section class="support">
       <div class="support__background-color"></div>
-      <a href="/support/" class="support__btn">Support Us</a>
+      <a href="/support/" class="support__btn">Faire un don</a>
     </section>
     <Footer />
   </div>

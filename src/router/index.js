@@ -13,6 +13,7 @@ import SocialMedia from '../components/SocialMedia';
 import Annual from '../components/Annual';
 import Enterprise from '../components/Enterprise';
 import Membership from '../components/Membership.vue';
+import Rejoin from '../components/Rejoin';
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ Vue.use(VueRouter)
     path: '/',
     name: 'homepage',
     component: Homepage
+  },
+  {
+  path:'/rejoin',
+  name:'rejoin',
+  component:Rejoin
   },
   {
     path:'/durable',
