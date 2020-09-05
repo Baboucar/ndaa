@@ -12,11 +12,7 @@
         </h1>
         <div class="contact_details container">
           <div class="contact__description">
-            <p>
-              Etant donné le grand nombre de mails reçus à NDAA, nous vous
-              remercions d'essayer d'être le plus précis possible dans la
-              formulation de votre demande ou de votre proposition, merci !
-            </p>
+          
             <p class="flex-contact phone center-text">
               <img
                 class="icon icon--phone"
@@ -81,6 +77,9 @@
 
       <section class="map"></section>
     </main>
+    <section >
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2618.449619007589!2d1.911190315843887!3d48.983000499878436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e692625528e257%3A0xb097408244800e06!2sRue%20des%20Girofl%C3%A9e%2C%2078130%20Les%20Mureaux%2C%20France!5e0!3m2!1sen!2skr!4v1599284770032!5m2!1sen!2skr" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
     <Footer />
   </div>
 </template>
@@ -152,6 +151,9 @@ textarea:focus {
   align-items: center;
   justify-content: center;
   color: $color-white;
+}
+.map{
+  width:100%;
 }
 @media (min-width: 64rem) {
   .fix__container {

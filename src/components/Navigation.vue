@@ -16,7 +16,7 @@
       <nav class="container nav" role="navigation">
         <!-- begin nav -->
 
-        <router-link to="">Accueil</router-link>
+        <router-link to="/">Accueil</router-link>
         <router-link to="mission">À propos de NDAA</router-link>
         <router-link to="/project">Ce Que Nous Faisons</router-link>
         <router-link to="/pouvez">Vous pouvez nous Aider</router-link>

@@ -2,9 +2,7 @@
   <div>
     <Navigation />
 
-    <div class="slider">
-    
-    </div>
+    <div class="slider"></div>
     <div>
       <section class="container">
         <h1 class="center-text">NDAA</h1>
@@ -55,7 +53,7 @@
           </div>
 
           <div class="card">
-            <img src="/../images/services-4-netrprneur.png"  />
+            <img src="/../images/services-4-netrprneur.png" />
             <div>
               <h3>ENTREPRENARIAT</h3>
               <p>
@@ -98,7 +96,21 @@
       <carousel :per-page="1" autoplay>
         <slide>
           <section class="projects container">
-            <h3 class="heading center-text">Our Projects</h3>
+            <h3 class="heading center-text">Actualités</h3>
+            <div class="center-text">
+            <p>
+              Soyez au plus près de l'actualité en suivant notre fil info mis à <br>
+              jour en temps réel. Toute l'info en direct est sur Ndjobbo Tv <br>
+              International.
+            </p>
+            <p>
+              Merci de vous abonner sur notre chaîne YouTube Ndjobbo Tv <br>
+              International. Cette chaine a pour mission de promouvoir et de <br>
+              vulgariser les enseignements et l'œuvre complète de Cheikh Alhadj <br>
+              Oumar Foutiyou ( Gollanadé Ndjobbo Adama Aisse), ainsi que celles <br>
+              de tous les grands érudits du Sénégal et d'Afrique.
+            </p>
+            </div>
             <div class="cards">
               <div class="card">
                 <img src="/../images/V1.png" alt />
@@ -153,9 +165,7 @@
                   </p>
                 </div>
 
-                <a
-                  href="https://youtu.be/R-SNFbjmIyY"
-                  class="card__button"
+                <a href="https://youtu.be/R-SNFbjmIyY" class="card__button"
                   >VOIR LA VIDEO</a
                 >
               </div>
@@ -164,13 +174,26 @@
         </slide>
         <slide>
           <section class="projects container">
-            <h3 class="heading center-text">Our Projects</h3>
+            <h3 class="heading center-text">Actualités</h3>
+               <div class="center-text">
+            <p>
+              Soyez au plus près de l'actualité en suivant notre fil info mis à <br>
+              jour en temps réel. Toute l'info en direct est sur Ndjobbo Tv <br>
+              International.
+            </p>
+            <p>
+              Merci de vous abonner sur notre chaîne YouTube Ndjobbo Tv <br>
+              International. Cette chaine a pour mission de promouvoir et de <br>
+              vulgariser les enseignements et l'œuvre complète de Cheikh Alhadj <br>
+              Oumar Foutiyou ( Gollanadé Ndjobbo Adama Aisse), ainsi que celles <br>
+              de tous les grands érudits du Sénégal et d'Afrique.
+            </p>
+            </div>
             <div class="cards">
               <div class="card">
                 <img src="/../images/V4.png" alt />
-                <h4 class="card__title center-text">Project Title</h4>
                 <div class="card__description center-text">
-                  <h4 class="card__location center-text">
+                  <h4 class="card__title center-text">
                     25 août 2020|Thierno Djiby Sow
                   </h4>
 
@@ -188,25 +211,102 @@
                 >
               </div>
               <div class="card">
-                <img src="/../images/project1.jpg" alt />
-                <h4 class="card__title center-text">Project Title</h4>
+                <img src="/../images/version-poulard.png" alt />
                 <div class="card__description center-text">
-                  <span class="card__location center-text">Mon 02 Jan|</span>
-                  <span>Banjul</span>
+                  <h4 class="card__title center-text">24 août 2020 | Thierno Djiby Sow</h4>
+                  <p>
+                  Présentation de Ndjobbo <br> Tv International  par <br> Thierno Djiby Sow ( version Poular )
+                  </p>
                 </div>
 
-                <a href class="card__button">Read More</a>
+                <a href="https://youtu.be/YnC0EgJTYEY" class="card__button">VOIR LA VIDEO</a>
               </div>
 
               <div class="card">
-                <img src="/../images/project1.jpg" alt />
-                <h4 class="card__title center-text">Project Title</h4>
+                <img src="/../images/version-wolof.png" alt />
                 <div class="card__description center-text">
-                  <span class="card__location center-text">Mon 02 Jan|</span>
-                  <span>Banjul</span>
+                  <h4 class="card__title center-text">2 sept. 2020 | Cheikh Oumar Kane</h4>
+                  <p>
+                  La Vie et l'Oeuvre <br> du Prophète Mouhamed <br> ibn Abdalah <br> par Cheikh Oumar Kane ( version Wolof )
+                  </p>
+                  
                 </div>
 
-                <a href class="card__button">Read More</a>
+                <a href="https://youtu.be/AFjduGE8yhE" class="card__button">VOIR LA VIDEO</a>
+              </div>
+            </div>
+          </section>
+        </slide>
+
+         <slide>
+          <section class="projects container">
+            <h3 class="heading center-text">Actualités</h3>
+            <div class="center-text">
+            <p>
+              Soyez au plus près de l'actualité en suivant notre fil info mis à <br>
+              jour en temps réel. Toute l'info en direct est sur Ndjobbo Tv <br>
+              International.
+            </p>
+            <p>
+              Merci de vous abonner sur notre chaîne YouTube Ndjobbo Tv <br>
+              International. Cette chaine a pour mission de promouvoir et de <br>
+              vulgariser les enseignements et l'œuvre complète de Cheikh Alhadj <br>
+              Oumar Foutiyou ( Gollanadé Ndjobbo Adama Aisse), ainsi que celles <br>
+              de tous les grands érudits du Sénégal et d'Afrique.
+            </p>
+            </div>
+            <div class="cards">
+              <div class="card">
+                <img src="/../images/Thierno-Ibrahima-Camara.png" alt />
+
+                <div class="card__description center-text">
+                  <h4 class="card__title card__location center-text">
+                   30 août 2020 | Thierno Ibrahima Camara
+                  </h4>
+
+                  <p class="card__description">
+                 Présentation de l'Association <br> Gollanadé Ndjobbo <br> Sokhna Adama Aisse <br> par Thierno Ibrahima Camara
+
+                  </p>
+                </div>
+
+                <a
+                  href="https://youtu.be/Ltm-pV1JqzM"
+                  class="card__button"
+                  >VOIR LA VIDEO</a
+                >
+              </div>
+
+              <div class="card">
+                <img src="/../images/cherif.png" alt />
+                <div class="card__description center-text">
+                  <h4 class="card__title center-text">
+                 31 août 2020 | Shériff Macky Aidara
+                  </h4>
+                  <p>
+                  Les enseignements de <br> Elh Oumar Foutiyoubr <br> Tall sur (Islam, Iman et Ihsan) <br> selon Shériff Macky Aidara.
+                  </p>
+                </div>
+
+                <a href="https://youtu.be/8mv9Nhpmg0U" class="card__button"
+                  >VOIR LA VIDEO</a
+                >
+              </div>
+
+              <div class="card">
+                <img src="/../images/cherif2.png" alt />
+                <div class="card__description center-text">
+                  <h4 class="card__location center-text">
+                    31 août 2020 | Shériff Macky Aidara
+                  </h4>
+                  <p>
+                  Définition du Mot <br> NDJOBBO ( ce nom mystérieux de Elh Oumar Foutiyou Tall ) <br> par Shériff Macky Aidara.
+                  </p>
+                </div>
+
+                <a href="https://youtu.be/vhj7dvhH9DY" class="card__button"
+                  >VOIR LA VIDEO</a
+                >
               </div>
             </div>
           </section>
