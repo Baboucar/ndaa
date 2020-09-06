@@ -399,6 +399,9 @@ export default {
   width: 100%;
 
 }
+.title{
+  margin-top: 6rem;
+}
 
 .card {
   padding: 1rem;
@@ -413,8 +416,6 @@ export default {
     margin-top:4rem;
   }
 
-  .title{
-    margin-top: 6rem;
-  }
+ 
 }
 </style>
