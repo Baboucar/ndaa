@@ -11,7 +11,6 @@
           Pour un virement bancaire : <br />
           RIB: Bientôt disponible
         </p>
-        <router-link to="/" class="links">Faire un don</router-link>
       </div>
 
       <div>
