@@ -35,8 +35,8 @@
         Nous vous remercions de l'intérêt que vous portez à notre association
         gollanade Njobbo Sokhna Adama Aïsse, nous n'avons pas de postes
         disponibles pour le moment. Si vous souhaitez être informé de nos futurs
-        postes vacants, veuillez envoyer votre CV et votre lettre de motivation
-        à : <strong>dentalndjobbosokhnaadamaaisse@gmail.com</strong>
+        postes vacants, veuillez envoyer votre CV et votre lettre de motivation.
+       
       </p>
 
       <h2>COLLECTE DE FONDS</h2>
