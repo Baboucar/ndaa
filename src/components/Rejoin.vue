@@ -20,7 +20,7 @@
       </p>
       
       <div class="contact">
-          <router-link to="/contact" class="support__btn">Contactez-nous</router-link>
+          <router-link to="/contact" class="contact__btn">Contactez-nous</router-link>
       </div>
      
     </section>
@@ -42,15 +42,24 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/base.scss";
-.support__btn{
+.contact__btn{
     background: $color-primary;
     color: $color-white;
+    position: relative;
+    width: 7rem;
+    padding: .8rem;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+
+    
 }
 .section__details {
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15);
-  padding: 4rem;
+  padding: 1rem;
   margin-top: 4rem;
 }
 @media (min-width: 64rem) {

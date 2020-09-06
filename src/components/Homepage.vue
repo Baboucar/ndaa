@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Navigation />
-
-    <div class="">
+  
+<Navigation/>
+    <div class="slide">
     
     <vue-flux
    :options="vfOptions"
@@ -35,8 +35,8 @@
     </div>
     <div>
       <section class="container">
-        <h1 class="center-text">NDAA</h1>
-        <p class="center-text">
+        <h1 class="center-text title">NDAA</h1>
+        <p class="center-text spacer-1">
           L'association gollanade Njobbo Sokhna Adama Aïsse,
           <br />à vocation internationale, à but non lucratif a pour but
           <br />de promouvoir le vivre ensemble et le <br />développement
@@ -393,19 +393,28 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/base.scss";
-.slider {
+.slide{
   position: relative;
-  left: 0;
-  right: 0;
-  background-image: url(/../images/slider.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  height: 600px;
-  box-sizing: border-box;
+  top: 5rem;
+  width: 100%;
+
 }
 
 .card {
   padding: 1rem;
+}
+
+@media(min-width:64rem){
+  .slide{
+    margin-top: .5rem;
+    z-index: -1;
+  }
+  .spacer-1{
+    margin-top:4rem;
+  }
+
+  .title{
+    margin-top: 6rem;
+  }
 }
 </style>

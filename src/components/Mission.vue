@@ -90,7 +90,7 @@ export default {
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15);
- 
+ padding: 1rem;
   margin-top: 4rem;
 }
 @media (min-width: 64rem) {

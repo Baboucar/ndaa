@@ -98,7 +98,12 @@
         </div>
         </div>
         </tab-content>
-        <tab-content title="Récapitulatif"> </tab-content>
+        <tab-content title="Récapitulatif"> 
+           <div class="box">
+           
+           </div>
+        
+        </tab-content>
       </form-wizard>
       <div class="services">
         <h3 class="p_title">
@@ -250,8 +255,8 @@ width: 100%;
   }
   .container {
     width: 60%;
-    margin-top: 13rem;
-    margin-bottom: 8rem;
+    margin-top: 15rem;
+    margin-bottom: 9rem;
   }
   .member__title {
     display: grid;
@@ -271,6 +276,12 @@ width: 100%;
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 1rem;
+  }
+
+  .box{
+    
+      width: 20px;
+      height: 160px;
   }
 }
 </style>

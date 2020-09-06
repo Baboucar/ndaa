@@ -52,6 +52,7 @@ $breakpoints: ("mobile-small": "( min-width:  20.000em )", "mobile-large": "( mi
 /// default font size for the html
 html {
     box-sizing: border-box;
+
 }
 
 // body resets
@@ -80,6 +81,9 @@ img {
     text-align: center;
 }
 
+.spacer-1{
+    margin-top: 2rem;
+}
 
 .mission {
     background: $color-mission;
@@ -159,7 +163,11 @@ img {
     padding-bottom: 1.5rem;
     box-shadow: 0 12px 15px rgba(0, 0, 0, 0.1), 0 17px 50px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
-       
+    transition: transform .3s;
+
+    &:hover{
+      transform: scale(1.1); 
+    }
     
 }
 
