@@ -371,7 +371,7 @@ export default {
    vfOptions: {
          autoplay: true
       },
-      vfImages: [ '/../images/slider/NDAA-conception.png', '/../images/slider/NDAA-conception2.png', '/../images/slider/NDAA-conception3.png' ],
+      vfImages: [ '/../images/slider/NDAA-conception.png', '/../images/slider/NDAA-conception2.png', '/../images/slider/NDAA-conception3.png','/../images/slider/tall.jpg' ],
       vfTransitions: [ 'fade', 'book', 'wave','waterfall','concentric' ],
     }
   },

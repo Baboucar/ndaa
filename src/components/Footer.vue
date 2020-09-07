@@ -3,7 +3,7 @@
     <footer>
       <div>
         <h2 class="links">
-          <span class="color">Pour paypal</span> : Cliquezs
+          <span class="color">Pour paypal</span> : Cliquez
           <span class="color"> ci-dessous.</span>
         </h2>
         <button class="paypal__button">Faire un don</button>
