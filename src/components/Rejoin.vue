@@ -7,7 +7,7 @@
         Si vous êtes passionné par l'aide aux personnes dans le besoin et que
         vous cherchez à mettre vos compétences à profit, nous serions ravis que
         vous rejoigniez notre association gollanade Njobbo Sokhna Adama Aïsse !
-        Nous sommes constamment à la recherche de professionnels énergiques et
+        Nous sommes constamment à la recherche de professionnels dynamiques et
         motivés pour élargir notre association dans des domaines liés à
         l'informatique, aux affaires, à la comptabilité et à l'administration
         générale.
@@ -18,11 +18,12 @@
         disponibles pour le moment. Si vous souhaitez être informé de nos futurs
         postes vacants, veuillez envoyer votre CV et votre lettre de motivation.
       </p>
-      
+
       <div class="contact">
-          <router-link to="/contact" class="contact__btn">Contactez-nous</router-link>
+        <router-link to="/contact" class="contact__btn"
+          >Contactez-nous</router-link
+        >
       </div>
-     
     </section>
 
     <Footer />
@@ -42,18 +43,16 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/base.scss";
-.contact__btn{
-    background: $color-primary;
-    color: $color-white;
-    position: relative;
-    width: 7rem;
-    padding: .8rem;
-    text-decoration: none;
-    display: block;
-    margin: 0 auto;
-    border-radius: 5px;
-
-    
+.contact__btn {
+  background: $color-primary;
+  color: $color-white;
+  position: relative;
+  width: 7rem;
+  padding: 0.8rem;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
 }
 .section__details {
   background-color: #ffffff;

@@ -5,16 +5,26 @@
       <h2>Médias sociaux</h2>
       <p>Tout le soutien ne passe pas par la valeur monétaire.</p>
       <p>
-       Les médias sociaux sont devenus une plateforme mondiale sur laquelle nous pouvons tous nous connecter, notre travail a touché des milliers de personnes grâce à nos plateformes. Nous apprécions tous nos supporters pour leur soutien régulier :
+        Grace à notre plateforme, nous restons connectés avec des milliers de
+        personnes un peu partout dans le monde travers les réseaux sociaux. Nous
+        apprécions tous nos supporters d’avoir adhéré à notre cause et nous les
+        remercions pour leur soutien régulier nous permettant ainsi, de réaliser
+        nos objectifs.
       </p>
 
-<p>
-Grâce à votre soutien, nous pouvons tous contribuer à maintenir les personnes démunis.
-</p>
-     <p>
-     L’association gollanade Njobbo Sokhna Adama Aïsse est fière d'informer nos donateurs sur tous nos projets. Nous travaillons en étroite collaboration avec nos équipes locales et étrangères pour nous assurer que les mises à jour sur l'avancement des projets sont facilement accessibles. 
-Visitez-nous sur les médias sociaux pour connaître les dernières mises à jour sur la façon dont nous changeons la vie des personnes profondément défavorisées
-     </p>
+      <p>
+        Grâce à votre soutien, nous pouvons tous contribuer à maintenir les
+        personnes démunis.
+      </p>
+      <p>
+        L’association gollanade Njobbo Sokhna Adama Aïsse est fière d'informer
+        nos donateurs sur tous nos projets. Nous travaillons en étroite
+        collaboration avec nos équipes locales et étrangères pour nous assurer
+        que les mises à jour sur l'avancement des projets soient facilement
+        accessibles. Suivez-nous sur les réseaux sociaux pour connaître les
+        dernières mises à jour de comment avec vos soutiens, nous arrivons à
+        changer la vie des populations défavorisées ; ensemble nous pouvons.
+      </p>
     </section>
     <Footer />
   </div>

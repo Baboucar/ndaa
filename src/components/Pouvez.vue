@@ -25,7 +25,7 @@
         Si vous êtes passionné par l'aide aux personnes dans le besoin et que
         vous cherchez à mettre vos compétences à profit, nous serions ravis que
         vous rejoigniez notre association gollanade Njobbo Sokhna Adama Aïsse !
-        Nous sommes constamment à la recherche de professionnels énergiques et
+        Nous sommes constamment à la recherche de professionnels dynamiques et
         motivés pour élargir notre association dans des domaines liés à
         l'informatique, aux affaires, à la comptabilité et à l'administration
         générale.
