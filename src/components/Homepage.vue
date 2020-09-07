@@ -1,37 +1,28 @@
 <template>
   <div>
-  
-<Navigation/>
+    <Navigation />
     <div class="slide">
-    
-    <vue-flux
-   :options="vfOptions"
-   :images="vfImages"
-   :transitions="vfTransitions"
-   
-   ref="slider">
+      <vue-flux :options="vfOptions" :images="vfImages" :transitions="vfTransitions" ref="slider">
+        <template v-slot:preloader>
+          <flux-preloader />
+        </template>
 
-   <template v-slot:preloader>
-      <flux-preloader />
-   </template>
+        <template>
+          <flux-caption />
+        </template>
 
-   <template >
-      <flux-caption />
-   </template>
+        <template v-slot:controls>
+          <flux-controls />
+        </template>
 
-   <template v-slot:controls>
-      <flux-controls />
-   </template>
+        <template v-slot:pagination>
+          <flux-pagination />
+        </template>
 
-   <template v-slot:pagination>
-      <flux-pagination />
-   </template>
-
-   <template v-slot:index>
-      <flux-index />
-   </template>
-</vue-flux>
-
+        <template v-slot:index>
+          <flux-index />
+        </template>
+      </vue-flux>
     </div>
     <div>
       <section class="container">
@@ -39,7 +30,8 @@
         <p class="center-text spacer-1">
           L'association gollanade Njobbo Sokhna Adama Aïsse,
           <br />à vocation internationale, à but non lucratif a pour but
-          <br />de promouvoir le vivre ensemble et le <br />développement
+          <br />de promouvoir le vivre ensemble et le
+          <br />développement
           socio-économiques et culturel. Elle œuvre pour :
         </p>
         <div class="cards">
@@ -128,31 +120,32 @@
           <section class="projects container">
             <h3 class="heading center-text">Actualités</h3>
             <div class="center-text">
-            <p>
-              Soyez au plus près de l'actualité en suivant notre fil info mis à <br>
-              jour en temps réel. Toute l'info en direct est sur Ndjobbo Tv <br>
-              International.
-            </p>
-            <p>
-              Merci de vous abonner sur notre chaîne YouTube Ndjobbo Tv <br>
-              International. Cette chaine a pour mission de promouvoir et de <br>
-              vulgariser les enseignements et l'œuvre complète de Cheikh Alhadj <br>
-              Oumar Foutiyou ( Gollanadé Ndjobbo Adama Aisse), ainsi que celles <br>
-              de tous les grands érudits du Sénégal et d'Afrique.
-            </p>
+              <p>
+                Soyez au plus près de l'actualité en suivant notre fil info mis à
+                <br />jour en temps réel. Toute l'info en direct est sur Ndjobbo Tv
+                <br />International.
+              </p>
+              <p>
+                Merci de vous abonner sur notre chaîne YouTube Ndjobbo Tv
+                <br />International. Cette chaine a pour mission de promouvoir et de
+                <br />vulgariser les enseignements et l'œuvre complète de Cheikh Alhadj
+                <br />Oumar Foutiyou ( Gollanadé Ndjobbo Adama Aisse), ainsi que celles
+                <br />de tous les grands érudits du Sénégal et d'Afrique.
+              </p>
             </div>
             <div class="cards">
               <div class="card">
                 <img src="/../images/V1.png" alt />
 
                 <div class="card__description center-text">
-                  <h4 class="card__title card__location center-text">
-                    30 août 2020 | Thierno Djiby Sow
-                  </h4>
+                  <h4
+                    class="card__title card__location center-text"
+                  >30 août 2020 | Thierno Djiby Sow</h4>
 
                   <p class="card__description">
                     Présentation de l'Association
-                    <br />Gollanadé Ndjobbo Sokhna Adama <br />Aisse par Thierno
+                    <br />Gollanadé Ndjobbo Sokhna Adama
+                    <br />Aisse par Thierno
                     Djiby Sow.
                   </p>
                 </div>
@@ -160,44 +153,37 @@
                 <a
                   href="https://www.youtube.com/watch?v=6diboGHSI-Y"
                   class="card__button"
-                  >VOIR LA VIDEO</a
-                >
+                >VOIR LA VIDEO</a>
               </div>
 
               <div class="card">
                 <img src="/../images/V2.png" alt />
                 <div class="card__description center-text">
-                  <h4 class="card__title center-text">
-                    27 août 2020 | Thierno Djiby Sow
-                  </h4>
+                  <h4 class="card__title center-text">27 août 2020 | Thierno Djiby Sow</h4>
                   <p>
                     Diangaléy Makgni ak
-                    <br />Thierno Djiby Sow sur <br />la chaine Ndjobbo Tv
+                    <br />Thierno Djiby Sow sur
+                    <br />la chaine Ndjobbo Tv
                     International ( N°1 ).
                   </p>
                 </div>
 
-                <a href="https://youtu.be/IyYIOT92sfc" class="card__button"
-                  >VOIR LA VIDEO</a
-                >
+                <a href="https://youtu.be/IyYIOT92sfc" class="card__button">VOIR LA VIDEO</a>
               </div>
 
               <div class="card">
                 <img src="/../images/V3.png" alt />
                 <div class="card__description center-text">
-                  <h4 class="card__location center-text">
-                    27 août 2020 | Hady Moulkaïry Bousso Tall
-                  </h4>
+                  <h4 class="card__location center-text">27 août 2020 | Hady Moulkaïry Bousso Tall</h4>
                   <p>
                     Présentation de l'association
-                    <br />Gollanade Ndjobbo Sokhna <br />Adama Aissse par Hady
+                    <br />Gollanade Ndjobbo Sokhna
+                    <br />Adama Aissse par Hady
                     Moulkaïry Bousso Tall
                   </p>
                 </div>
 
-                <a href="https://youtu.be/R-SNFbjmIyY" class="card__button"
-                  >VOIR LA VIDEO</a
-                >
+                <a href="https://youtu.be/R-SNFbjmIyY" class="card__button">VOIR LA VIDEO</a>
               </div>
             </div>
           </section>
@@ -205,31 +191,30 @@
         <slide>
           <section class="projects container">
             <h3 class="heading center-text">Actualités</h3>
-               <div class="center-text">
-            <p>
-              Soyez au plus près de l'actualité en suivant notre fil info mis à <br>
-              jour en temps réel. Toute l'info en direct est sur Ndjobbo Tv <br>
-              International.
-            </p>
-            <p>
-              Merci de vous abonner sur notre chaîne YouTube Ndjobbo Tv <br>
-              International. Cette chaine a pour mission de promouvoir et de <br>
-              vulgariser les enseignements et l'œuvre complète de Cheikh Alhadj <br>
-              Oumar Foutiyou ( Gollanadé Ndjobbo Adama Aisse), ainsi que celles <br>
-              de tous les grands érudits du Sénégal et d'Afrique.
-            </p>
+            <div class="center-text">
+              <p>
+                Soyez au plus près de l'actualité en suivant notre fil info mis à
+                <br />jour en temps réel. Toute l'info en direct est sur Ndjobbo Tv
+                <br />International.
+              </p>
+              <p>
+                Merci de vous abonner sur notre chaîne YouTube Ndjobbo Tv
+                <br />International. Cette chaine a pour mission de promouvoir et de
+                <br />vulgariser les enseignements et l'œuvre complète de Cheikh Alhadj
+                <br />Oumar Foutiyou ( Gollanadé Ndjobbo Adama Aisse), ainsi que celles
+                <br />de tous les grands érudits du Sénégal et d'Afrique.
+              </p>
             </div>
             <div class="cards">
               <div class="card">
                 <img src="/../images/V4.png" alt />
                 <div class="card__description center-text">
-                  <h4 class="card__title center-text">
-                    25 août 2020|Thierno Djiby Sow
-                  </h4>
+                  <h4 class="card__title center-text">25 août 2020|Thierno Djiby Sow</h4>
 
                   <p>
                     Présentation de Ndjobbo
-                    <br />Tv International par <br />Thierno Djiby Sow ( version
+                    <br />Tv International par
+                    <br />Thierno Djiby Sow ( version
                     Wolof )
                   </p>
                 </div>
@@ -237,15 +222,16 @@
                 <a
                   href="https://www.youtube.com/watch?v=Zc3EHBsHtFk"
                   class="card__button"
-                  >VOIR LA VIDEO</a
-                >
+                >VOIR LA VIDEO</a>
               </div>
               <div class="card">
                 <img src="/../images/version-poulard.png" alt />
                 <div class="card__description center-text">
                   <h4 class="card__title center-text">24 août 2020 | Thierno Djiby Sow</h4>
                   <p>
-                  Présentation de Ndjobbo <br> Tv International  par <br> Thierno Djiby Sow ( version Poular )
+                    Présentation de Ndjobbo
+                    <br />Tv International par
+                    <br />Thierno Djiby Sow ( version Poular )
                   </p>
                 </div>
 
@@ -257,9 +243,11 @@
                 <div class="card__description center-text">
                   <h4 class="card__title center-text">2 sept. 2020 | Cheikh Oumar Kane</h4>
                   <p>
-                  La Vie et l'Oeuvre <br> du Prophète Mouhamed <br> ibn Abdalah <br> par Cheikh Oumar Kane ( version Wolof )
+                    La Vie et l'Oeuvre
+                    <br />du Prophète Mouhamed
+                    <br />ibn Abdalah
+                    <br />par Cheikh Oumar Kane ( version Wolof )
                   </p>
-                  
                 </div>
 
                 <a href="https://youtu.be/AFjduGE8yhE" class="card__button">VOIR LA VIDEO</a>
@@ -268,75 +256,71 @@
           </section>
         </slide>
 
-         <slide>
+        <slide>
           <section class="projects container">
             <h3 class="heading center-text">Actualités</h3>
             <div class="center-text">
-            <p>
-              Soyez au plus près de l'actualité en suivant notre fil info mis à <br>
-              jour en temps réel. Toute l'info en direct est sur Ndjobbo Tv <br>
-              International.
-            </p>
-            <p>
-              Merci de vous abonner sur notre chaîne YouTube Ndjobbo Tv <br>
-              International. Cette chaine a pour mission de promouvoir et de <br>
-              vulgariser les enseignements et l'œuvre complète de Cheikh Alhadj <br>
-              Oumar Foutiyou ( Gollanadé Ndjobbo Adama Aisse), ainsi que celles <br>
-              de tous les grands érudits du Sénégal et d'Afrique.
-            </p>
+              <p>
+                Soyez au plus près de l'actualité en suivant notre fil info mis à
+                <br />jour en temps réel. Toute l'info en direct est sur Ndjobbo Tv
+                <br />International.
+              </p>
+              <p>
+                Merci de vous abonner sur notre chaîne YouTube Ndjobbo Tv
+                <br />International. Cette chaine a pour mission de promouvoir et de
+                <br />vulgariser les enseignements et l'œuvre complète de Cheikh Alhadj
+                <br />Oumar Foutiyou ( Gollanadé Ndjobbo Adama Aisse), ainsi que celles
+                <br />de tous les grands érudits du Sénégal et d'Afrique.
+              </p>
             </div>
             <div class="cards">
               <div class="card">
                 <img src="/../images/Thierno-Ibrahima-Camara.png" alt />
 
                 <div class="card__description center-text">
-                  <h4 class="card__title card__location center-text">
-                   30 août 2020 | Thierno Ibrahima Camara
-                  </h4>
+                  <h4
+                    class="card__title card__location center-text"
+                  >30 août 2020 | Thierno Ibrahima Camara</h4>
 
                   <p class="card__description">
-                 Présentation de l'Association <br> Gollanadé Ndjobbo <br> Sokhna Adama Aisse <br> par Thierno Ibrahima Camara
-
+                    Présentation de l'Association
+                    <br />Gollanadé Ndjobbo
+                    <br />Sokhna Adama Aisse
+                    <br />
+par Thierno Ibrahima Camara
                   </p>
                 </div>
 
-                <a
-                  href="https://youtu.be/Ltm-pV1JqzM"
-                  class="card__button"
-                  >VOIR LA VIDEO</a
-                >
+                <a href="https://youtu.be/Ltm-pV1JqzM" class="card__button">VOIR LA VIDEO</a>
               </div>
 
               <div class="card">
                 <img src="/../images/cherif.png" alt />
                 <div class="card__description center-text">
-                  <h4 class="card__title center-text">
-                 31 août 2020 | Shériff Macky Aidara
-                  </h4>
+                  <h4 class="card__title center-text">31 août 2020 | Shériff Macky Aidara</h4>
                   <p>
-                  Les enseignements de <br> Elh Oumar Foutiyoubr <br> Tall sur (Islam, Iman et Ihsan) <br> selon Shériff Macky Aidara.
+                    Les enseignements de
+                    <br />Elh Oumar Foutiyoubr
+                    <br />Tall sur (Islam, Iman et Ihsan)
+                    <br />selon Shériff Macky Aidara.
                   </p>
                 </div>
 
-                <a href="https://youtu.be/8mv9Nhpmg0U" class="card__button"
-                  >VOIR LA VIDEO</a
-                >
+                <a href="https://youtu.be/8mv9Nhpmg0U" class="card__button">VOIR LA VIDEO</a>
               </div>
 
               <div class="card">
                 <img src="/../images/cherif2.png" alt />
                 <div class="card__description center-text">
-                  <h4 class="card__location center-text">
-                    31 août 2020 | Shériff Macky Aidara
-                  </h4>
+                  <h4 class="card__location center-text">31 août 2020 | Shériff Macky Aidara</h4>
                   <p>
-                  Définition du Mot <br> NDJOBBO ( ce nom mystérieux de Elh Oumar Foutiyou Tall ) <br> par Shériff Macky Aidara.
+                    Définition du Mot
+                    <br />NDJOBBO ( ce nom mystérieux de Elh Oumar Foutiyou Tall )
+                    <br />par Shériff Macky Aidara.
                   </p>
                 </div>
 
-                <a href="https://youtu.be/vhj7dvhH9DY" class="card__button"
-                  >VOIR LA VIDEO</a
-                >
+                <a href="https://youtu.be/vhj7dvhH9DY" class="card__button">VOIR LA VIDEO</a>
               </div>
             </div>
           </section>
@@ -357,49 +341,51 @@ import Navigation from "./Navigation";
 import Footer from "./Footer";
 import { Carousel, Slide } from "vue-carousel";
 import {
-   VueFlux,
-   FluxCaption,
-   FluxControls,
-   FluxIndex,
-   FluxPagination,
-   FluxPreloader
-} from 'vue-flux';
+  VueFlux,
+  FluxCaption,
+  FluxControls,
+  FluxIndex,
+  FluxPagination,
+  FluxPreloader,
+} from "vue-flux";
 export default {
-
-  data(){
-    return{
-   vfOptions: {
-         autoplay: true
+  data() {
+    return {
+      vfOptions: {
+        autoplay: true,
       },
-      vfImages: [ '/../images/slider/NDAA-conception.png', '/../images/slider/NDAA-conception2.png', '/../images/slider/NDAA-conception3.png','/../images/slider/tall.jpg' ],
-      vfTransitions: [ 'fade', 'book', 'wave','waterfall','concentric' ],
-    }
+      vfImages: [
+        "/../images/slider/NDAA-conception.png",
+        "/../images/slider/NDAA-conception2.png",
+        "/../images/slider/NDAA-conception3.png",
+        "/../images/slider/tall.jpg",
+      ],
+      vfTransitions: ["fade", "book", "wave", "waterfall", "concentric"],
+    };
   },
   components: {
-
     Navigation,
     Carousel,
     Slide,
     Footer,
     VueFlux,
-      FluxCaption,
-      FluxControls,
-      FluxIndex,
-      FluxPagination,
-      FluxPreloader,
+    FluxCaption,
+    FluxControls,
+    FluxIndex,
+    FluxPagination,
+    FluxPreloader,
   },
 };
 </script>
 
 <style lang="scss" scoped>
 @import "../assets/base.scss";
-.slide{
+.slide {
   position: relative;
   top: 5rem;
   width: 100%;
-
 }
-.title{
+.title {
   margin-top: 6rem;
 }
 
@@ -407,15 +393,13 @@ export default {
   padding: 1rem;
 }
 
-@media(min-width:64rem){
-  .slide{
-    margin-top: .5rem;
+@media (min-width: 64rem) {
+  .slide {
+    margin-top: 0.5rem;
     z-index: -1;
   }
-  .spacer-1{
-    margin-top:4rem;
+  .spacer-1 {
+    margin-top: 4rem;
   }
-
- 
 }
 </style>
