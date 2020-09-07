@@ -6,7 +6,7 @@
       <p>Tout le soutien ne passe pas par la valeur monétaire.</p>
       <p>
         Grace à notre plateforme, nous restons connectés avec des milliers de
-        personnes un peu partout dans le monde travers les réseaux sociaux. Nous
+        personnes un peu partout dans le monde à travers les réseaux sociaux. Nous
         apprécions tous nos supporters d’avoir adhéré à notre cause et nous les
         remercions pour leur soutien régulier nous permettant ainsi, de réaliser
         nos objectifs.

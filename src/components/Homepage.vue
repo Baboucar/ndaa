@@ -85,7 +85,7 @@
                 ENTREPRENEURIAT
               </h3>
               <p>
-                Favoriser l'entreprenariat à travers des activités génératrices
+                Favoriser l'entrepreneuriat à travers des activités génératrices
                 de revenus en faveur des femmes, des jeunes et des couches
                 vulnérables.
               </p>
@@ -133,7 +133,7 @@
                 Tv <br />International.
               </p>
               <p>
-                Merci de vous abonner a notre chaîne YouTube Ndjobbo Tv
+                Merci de vous abonner à notre chaîne YouTube Ndjobbo Tv
                 <br />International. Cette chaine a pour mission de promouvoir
                 et de <br />vulgariser les enseignements et l'œuvre complète de
                 Cheikh Alhadj <br />Oumar Foutiyou ( Gollanadé Ndjobbo Adama
@@ -213,7 +213,7 @@
                 Tv <br />International.
               </p>
               <p>
-                Merci de vous abonner a notre chaîne YouTube Ndjobbo Tv
+                Merci de vous abonner à notre chaîne YouTube Ndjobbo Tv
                 <br />International. Cette chaine a pour mission de promouvoir
                 et de <br />vulgariser les enseignements et l'œuvre complète de
                 Cheikh Alhadj <br />Oumar Foutiyou ( Gollanadé Ndjobbo Adama
@@ -292,7 +292,7 @@
                 Tv <br />International.
               </p>
               <p>
-                Merci de vous abonner sur notre chaîne YouTube Ndjobbo Tv
+                Merci de vous abonner à notre chaîne YouTube Ndjobbo Tv
                 <br />International. Cette chaine a pour mission de promouvoir
                 et de <br />vulgariser les enseignements et l'œuvre complète de
                 Cheikh Alhadj <br />Oumar Foutiyou ( Gollanadé Ndjobbo Adama
