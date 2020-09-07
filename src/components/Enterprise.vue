@@ -5,10 +5,11 @@
       <h2>Partenariats d'entreprises</h2>
      
       <p>
-        
-Grâce à des partenariats solides avec des organisations fiables et réputées reste bien connecté au sein de la communauté. Ensemble, nous pouvons contribuer à mettre un terme à la pauvreté aux personnes démunies.
+        Grâce à des partenariats solides avec des organisations fiables et réputées ; sont bien connectés au sein de la communauté. 
       </p>
-
+       <p>
+       Ensemble, nous pouvons contribuer à mettre un terme à la pauvreté aux personnes démunies. 
+       </p>
 
     </section>
     <Footer />
