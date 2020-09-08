@@ -96,12 +96,11 @@
             <div>
               <h3>CULTURE ET VULGARISATION</h3>
               <p>
-                L’association  gollanade Ndjobbo Sokhna
-                Adama Aïssé œuvrera pour la promotion de l'œuvre complète de
-                Cheikh Alhadj Oumar Foutiyou à travers ses écrits et ses
-                enseignements, ceux de sa descendance et de ses disciples mais
-                aussi, pour la recherche, l'identification et la rénovation de
-                ses vestiges.
+                L’association gollanade Ndjobbo Sokhna Adama Aïssé œuvrera pour
+                la promotion de l'œuvre complète de Cheikh Alhadj Oumar Foutiyou
+                à travers ses écrits et ses enseignements, ceux de sa
+                descendance et de ses disciples mais aussi, pour la recherche,
+                l'identification et la rénovation de ses vestiges.
               </p>
             </div>
           </div>
@@ -354,6 +353,47 @@
                 </div>
 
                 <a href="https://youtu.be/vhj7dvhH9DY" class="card__button"
+                  >VOIR LA VIDEO</a
+                >
+              </div>
+            </div>
+          </section>
+        </slide>
+        <slide>
+          <section class="projects container">
+            <h3 class="heading center-text">Actualités</h3>
+            <div class="center-text">
+              <p>
+                Soyez au plus près de l'actualité en suivant notre fil info mis
+                à
+                <br />jour en temps réel. Toute l'info en direct est sur Ndjobbo
+                Tv <br />International.
+              </p>
+              <p>
+                Merci de vous abonner à notre chaîne YouTube Ndjobbo Tv
+                <br />International. Cette chaine a pour mission de promouvoir
+                et de <br />vulgariser les enseignements et l'œuvre complète de
+                Cheikh Alhadj <br />Oumar Foutiyou ( Gollanadé Ndjobbo Adama
+                Aisse), ainsi que celles <br />de tous les grands érudits du
+                Sénégal et d'Afrique.
+              </p>
+            </div>
+            <div class="cards">
+              <div class="card">
+                <img src="/../images/cherif.png" alt />
+
+                <div class="card__description center-text">
+                  <h4 class="card__title card__location center-text">
+                    8 sept. 2020 | Shériff Macky Aidara
+                  </h4>
+
+                  <p class="card__description">
+                    Les enseignements de Elh Oumar Foutiyou Tall sur Islam,
+                    selon Shériff Macky Aidara ( version Xolof )
+                  </p>
+                </div>
+
+                <a href="https://youtu.be/2mmNDyldMbE" class="card__button"
                   >VOIR LA VIDEO</a
                 >
               </div>

@@ -8,7 +8,7 @@
         vous cherchez à mettre vos compétences à profit, nous serions ravis que
         vous rejoigniez notre association gollanade Ndjobbo Sokhna Adama Aïsse !
         Nous sommes constamment à la recherche de professionnels dynamiques et
-        motivés pour élargir notre association dans des domaines liés à
+        motivés pour élargir notre équipe dans des domaines liés à
         l'informatique, aux affaires, à la comptabilité et à l'administration
         générale.
       </p>
