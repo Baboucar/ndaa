@@ -6,15 +6,15 @@
       <p>
         Si vous êtes passionné par l'aide aux personnes dans le besoin et que
         vous cherchez à mettre vos compétences à profit, nous serions ravis que
-        vous rejoigniez notre association gollanade Njobbo Sokhna Adama Aïsse !
+        vous rejoigniez notre association gollanade Ndjobbo Sokhna Adama Aïsse !
         Nous sommes constamment à la recherche de professionnels dynamiques et
         motivés pour élargir notre association dans des domaines liés à
         l'informatique, aux affaires, à la comptabilité et à l'administration
         générale.
       </p>
       <p>
-        Nous vous remercions de l'intérêt que vous portez à notre association
-        gollanade Njobbo Sokhna Adama Aïsse, nous n'avons pas de postes
+        Nous vous remercions de l'intérêt que vous portez à notre equipe
+        gollanade Ndjobbo Sokhna Adama Aïsse, nous n'avons pas de postes
         disponibles pour le moment. Si vous souhaitez être informé de nos futurs
         postes vacants, veuillez envoyer votre CV et votre lettre de motivation.
       </p>

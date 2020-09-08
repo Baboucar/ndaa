@@ -4,7 +4,7 @@
     <section class="container section__details">
       <h2>POURQUOI NDAA</h2>
       <p>
-        L’association gollanade Njobbo Sokhna Adama Aïsse fait les choses
+        L’association gollanade Ndjobbo Sokhna Adama Aïsse fait les choses
         différemment et nous en sommes fiers. Nous nous efforçons de faire la
         différence pour les personnes dans le besoin en adoptant l'approche la
         plus efficace et la plus efficiente.

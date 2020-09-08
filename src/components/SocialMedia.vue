@@ -17,7 +17,7 @@
         personnes démunis.
       </p>
       <p>
-        L’association gollanade Njobbo Sokhna Adama Aïsse est fière d'informer
+        L’association gollanade Ndjobbo Sokhna Adama Aïsse est fière d'informer
         nos donateurs sur tous nos projets. Nous travaillons en étroite
         collaboration avec nos équipes locales et étrangères pour nous assurer
         que les mises à jour sur l'avancement des projets soient facilement

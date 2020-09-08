@@ -33,7 +33,7 @@
       <section class="container">
         <h1 class="center-text title">NDAA</h1>
         <p class="center-text spacer-1">
-          L'association gollanade Njobbo Sokhna Adama Aïsse,
+          L'association gollanade Ndjobbo Sokhna Adama Aïsse,
           <br />à vocation internationale, à but non lucratif a pour but
           <br />de promouvoir le vivre ensemble et le <br />développement
           socio-économiques et culturel. Elle œuvre pour :
@@ -96,7 +96,7 @@
             <div>
               <h3>CULTURE ET VULGARISATION</h3>
               <p>
-                L’association  gollanade Njobbo Sokhna
+                L’association  gollanade Ndjobbo Sokhna
                 Adama Aïssé œuvrera pour la promotion de l'œuvre complète de
                 Cheikh Alhadj Oumar Foutiyou à travers ses écrits et ses
                 enseignements, ceux de sa descendance et de ses disciples mais

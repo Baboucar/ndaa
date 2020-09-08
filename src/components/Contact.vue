@@ -27,7 +27,7 @@
                 alt="location"
               />
               <span class="contact_block">
-                L'association Gollanade Njobbo Sokhna Adama Aïsse <br />
+                L'association Gollanade Ndjobbo Sokhna Adama Aïsse <br />
                 7bis rue des giroflées, <br />
                 78130 les mureaux <br />
                 France
