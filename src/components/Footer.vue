@@ -67,6 +67,8 @@ export default {};
 footer {
   background: $color-primary;
   padding: 1rem;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 .paypal__button {
   background: #ffaf34;
