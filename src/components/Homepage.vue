@@ -468,6 +468,9 @@ export default {
   padding: 1rem;
 }
 
+.slide{
+  z-index: -1;
+}
 @media (min-width: 64rem) {
   .slide {
     margin-top: 0.5rem;

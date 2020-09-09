@@ -42,7 +42,7 @@
               <span class="contact_block">contact@ndaafoutiyou.com</span>
             </p>
           </div>
-          <form class="contact__form" autocomplete="off">
+          <form class="contact__form" autocomplete="off" action="https://formspree.io/contact@ndaafoutiyou.com" method="POST">
             <div class="form__group">
               <label class="label" for="name">Nom</label>
               <input type="text" name="" id="name" />
@@ -50,23 +50,23 @@
 
             <div class="form__group">
               <label class="label" for="name">Prénom</label>
-              <input type="text" name="" id="name" />
+              <input type="text" name="prenom" id="name" />
             </div>
             <div class="form__group">
               <label class="label" for="name">Téléphone </label>
-              <input type="text" name="" id="name" />
+              <input type="text" name="telephone" id="name" />
             </div>
             <div class="form__group">
               <label class="label" for="name">Adresse de messagerie </label>
-              <input type="text" name="" id="name" />
+              <input type="text" name="address" id="name" />
             </div>
             <div class="form__group">
-              <label class="label" for="email">Objet</label>
-              <input type="text" name="email" id="email" />
+              <label class="label" for="object">Objet</label>
+              <input type="text" name="object" id="object" />
             </div>
             <div class="form__group">
               <label class="label" for="message">Message</label>
-              <textarea name="" id="" cols="30" rows="10"> </textarea>
+              <textarea name="message" id="" cols="30" rows="10"> </textarea>
             </div>
 
             <input type="submit" value="Send" class="card__button" />
