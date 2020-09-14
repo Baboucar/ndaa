@@ -19,7 +19,7 @@
      
 
         <router-link to="/">Accueil</router-link>
-        <router-link to="mission">À propos de NDAA</router-link>
+        <router-link to="mission" @click="track">À propos de NDAA</router-link>
         <router-link to="/project">Ce Que Nous Faisons</router-link>
         <router-link to="/pouvez">Vous pouvez nous Aider</router-link>
         <router-link to="/pourquoi">Pourquoi NDAA</router-link>
@@ -51,6 +51,9 @@ export default {
       document.querySelector(".nav").style.left = "-950px";
       document.querySelector(".header__close-btn").style.display = "none";
     },
+    track(){
+      this.$a.page('/')
+    }
   },
 };
 </script>
