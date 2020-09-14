@@ -4,7 +4,7 @@
   </div>
     <div class="flex__nav">
       <header class="container header">
-        <!--begin header -->
+       
         <div class="container header__items">
           <router-link to="/">
             <img class="header__logo" src="/../images/logo1.png" alt="logo" />
@@ -13,10 +13,10 @@
           <span href @click="closenav()" class="header__close-btn">&times;</span>
         </div>
       </header>
-      <!--end header -->
+    
 
       <nav class="container nav" role="navigation">
-        <!-- begin nav -->
+     
 
         <router-link to="/">Accueil</router-link>
         <router-link to="mission">À propos de NDAA</router-link>
@@ -26,7 +26,7 @@
         <router-link to="/orphane">Nos Orphelins </router-link>
         <router-link to="">Faire un Don</router-link>
       </nav>
-      <!-- end nav -->
+    
     </div>
   </div>
 </template>

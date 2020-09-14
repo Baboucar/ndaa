@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="wrapper">
     <footer>
       <div>
@@ -55,7 +56,12 @@
         >
       </div>
     </footer>
+   
   </div>
+   <div class="copyright">
+        <p>THis is jus a test</p>
+    </div>
+    </div>
 </template>
 
 <script>
@@ -69,6 +75,11 @@ footer {
   padding: 1rem;
   max-width: 100%;
   box-sizing: border-box;
+}
+.copyright{
+  background: $color-secondary;
+  padding: 1rem;
+  margin-top:0;
 }
 .paypal__button {
   background: #ffaf34;

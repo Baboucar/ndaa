@@ -121,6 +121,7 @@
       </section>
 
       <carousel :per-page="1" autoplay>
+       
         <slide>
           <section class="projects container">
             <h3 class="heading center-text">Actualités</h3>
@@ -201,6 +202,7 @@
             </div>
           </section>
         </slide>
+
         <slide>
           <section class="projects container">
             <h3 class="heading center-text">Actualités</h3>
@@ -300,6 +302,7 @@
               </p>
             </div>
             <div class="cards">
+
               <div class="card">
                 <img src="/../images/Thierno-Ibrahima-Camara.png" alt />
 
@@ -320,6 +323,7 @@
                   >VOIR LA VIDEO</a
                 >
               </div>
+
 
               <div class="card">
                 <img src="/../images/cherif.png" alt />
@@ -356,6 +360,7 @@
                   >VOIR LA VIDEO</a
                 >
               </div>
+
             </div>
           </section>
         </slide>
@@ -379,6 +384,7 @@
               </p>
             </div>
             <div class="cards">
+
               <div class="card">
                 <img src="/../images/cherif.png" alt />
 
@@ -397,6 +403,9 @@
                   >VOIR LA VIDEO</a
                 >
               </div>
+
+              
+
             </div>
           </section>
         </slide>
